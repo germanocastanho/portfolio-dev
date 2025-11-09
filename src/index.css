@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 15% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 14% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 14% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 189 94% 55%;
+    --primary-foreground: 220 15% 8%;
+
+    --secondary: 220 12% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 12% 15%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 189 94% 55%;
+    --accent-foreground: 220 15% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 12% 18%;
+    --input: 220 12% 18%;
+    --ring: 189 94% 55%;
+
+    --radius: 0.75rem;
+
+    /* AI/Data Science inspired colors */
+    --data-blue: 210 98% 58%;
+    --data-cyan: 189 94% 55%;
+    --data-purple: 265 89% 70%;
+    --neural-gradient-start: 189 94% 55%;
+    --neural-gradient-end: 265 89% 70%;
+    
+    /* Semantic transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    background-image: url('/src/assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-md border-border/50 shadow-xl shadow-black/20;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold mb-12 text-center;
+  }
+  
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
+  }
+}
