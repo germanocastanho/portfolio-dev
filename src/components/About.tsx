@@ -20,7 +20,7 @@ export const About = () => {
             com domínio em prompt engineering, semantic embeddings e vector
             databases (FAISS, ChromaDB) para contextualização dinâmica.
           </p>
-
+          <br />
           <p className="text-lg leading-relaxed text-muted-foreground">
             Experiência comprovada em agentes autônomos multimodais, chatbots
             conversacionais com persistência de sessão e pipelines GenAI
