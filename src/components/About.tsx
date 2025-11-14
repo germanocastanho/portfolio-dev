@@ -9,16 +9,28 @@ export const About = () => {
           <User className="w-10 h-10 text-primary" />
           <h2 className="section-title mb-0">Sobre Mim</h2>
         </div>
-        
+
         <Card className="p-8 md:p-12 glass-card hover-lift">
           <p className="text-lg leading-relaxed text-muted-foreground">
-            Data Scientist com experiência prática em aplicações de{" "}
-            <span className="text-primary font-medium">Generative AI</span> e 
-            integração de modelos de linguagem multimodais. Especializado na concepção e operacionalização de 
-            pipelines de <span className="text-primary font-medium">retrieval-augmented generation (RAG)</span>, engenharia e avaliação de 
-            prompts e representação semântica via embeddings, aprimorando a relevância e a robustez das respostas e 
-            mitigando alucinações e vieses, com foco em soluções escaláveis, eficientes e alinhadas às restrições de 
-            custo e desempenho do produto.
+            Data Scientist & AI Engineer com certificações DataCamp (Data
+            Scientist Associate, AI Engineer Associate, Python Data Associate),
+            especializado em sistemas de Generative AI e arquiteturas RAG
+            (Retrieval-Augmented Generation). Expertise em orquestração de Large
+            Language Models (GPT-4, Claude, Llama) via LangChain, CrewAI e Agno,
+            com domínio em prompt engineering, semantic embeddings e vector
+            databases (FAISS, ChromaDB) para contextualização dinâmica.
+          </p>
+
+          <p className="text-lg leading-relaxed text-muted-foreground">
+            Experiência comprovada em agentes autônomos multimodais, chatbots
+            conversacionais com persistência de sessão e pipelines GenAI
+            end-to-end, integrando APIs comerciais (OpenAI, Anthropic, Groq) e
+            modelos open-source (Hugging Face Transformers). Proficiente em
+            otimização de inferência para redução de custos, mitigação de
+            alucinações via grounding e versionamento de ML artifacts
+            (Git/GitHub). Sólida base em Python para Data Science (Pandas,
+            NumPy), visualização analítica (Matplotlib, Plotly) e deployment
+            containerizado (Docker, Streamlit, Gradio).
           </p>
         </Card>
       </div>
