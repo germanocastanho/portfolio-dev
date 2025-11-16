@@ -30,7 +30,12 @@ Single-page portfolio application built with **Vite + React + TypeScript** featu
 ### Styling System
 
 - **Design Tokens**: All colors defined as HSL CSS variables in `src/index.css` under `:root`
-- **Utility Classes**: Custom classes `glass-card`, `hover-lift`, `section-title` defined in `@layer utilities`
+- **Utility Classes**: Custom classes `glass-card`, `hover-lift`, `section-title`, `text-shadow-md`, `text-shadow-lg` defined in `@layer utilities`
+- **Text Shadows**: All headings (h1-h4) have text-shadow applied for improved contrast against light backgrounds
+  - `text-shadow-md`: Standard shadow (0 2px 4px rgba(0, 0, 0, 0.5)) for h2-h4 subtitles
+  - `text-shadow-lg`: Stronger shadow (0 4px 8px rgba(0, 0, 0, 0.6)) for emphasis when needed
+  - `section-title` class includes built-in text-shadow for all main section headers
+  - Hero h1 uses Tailwind's `drop-shadow-2xl` for dramatic effect
 - **Glassmorphism Pattern**: Consistent `glass-card hover-lift` combination on all Card components
 - **Background**: Fixed background image from `src/assets/hero-bg.jpg` with gradient overlays
 - **Color Scheme**: AI/Data Science theme with cyan primary (`--primary: 189 94% 55%`), dark background (`--background: 220 15% 8%`)
@@ -41,7 +46,8 @@ Single-page portfolio application built with **Vite + React + TypeScript** featu
 2. **Component Exports**: Named exports for section components, default export for pages
 3. **Styling Pattern**: Every Card component uses `className="p-8 md:p-12 glass-card hover-lift"`
 4. **Section Headers**: Icon + title pattern with `flex items-center justify-center gap-4 mb-12`
-5. **Utility Function**: Use `cn()` from `@/lib/utils` for conditional className merging
+5. **Text Shadow**: All headings (h1, h2, h3, h4) must include text-shadow classes (`text-shadow-md` or `text-shadow-lg`) for proper contrast
+6. **Utility Function**: Use `cn()` from `@/lib/utils` for conditional className merging
 
 ## Development Workflow
 
@@ -138,6 +144,7 @@ describe("ComponentName", () => {
 
 - **Colors**: Modify HSL variables in `src/index.css` `:root`
 - **Typography**: Font family set to Inter in `tailwind.config.ts`
+- **Text Shadows**: Adjust shadow intensity in `.text-shadow-md` and `.text-shadow-lg` classes in `src/index.css` @layer utilities
 - **Spacing**: Container padding controlled by `container` Tailwind config
 - **Animations**: Custom utility classes in `src/index.css` @layer utilities
 
@@ -158,6 +165,8 @@ export const SectionName = () => {
           <h2 className="section-title mb-0">Section Title</h2>
         </div>
         <Card className="p-8 md:p-12 glass-card hover-lift">
+          {/* Content with subtitles should use text-shadow-md class */}
+          <h3 className="text-2xl font-bold text-shadow-md">Subtitle</h3>
           {/* Content */}
         </Card>
       </div>
