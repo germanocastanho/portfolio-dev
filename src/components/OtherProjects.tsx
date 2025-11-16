@@ -38,7 +38,7 @@ export const OtherProjects = () => {
   return (
     <section id="other-projects" className="py-16 px-4 bg-secondary/20">
       <div className="container mx-auto max-w-4xl">
-        <h3 className="text-2xl font-semibold mb-8 text-center">
+        <h3 className="text-2xl font-semibold mb-8 text-center text-shadow-md">
           Outros Projetos
         </h3>
 
@@ -68,7 +68,9 @@ export const OtherProjects = () => {
                   </Button>
                 </div>
 
-                <h4 className="font-semibold mb-2">{project.name}</h4>
+                <h4 className="font-semibold mb-2 text-shadow-md">
+                  {project.name}
+                </h4>
                 <p className="text-sm text-muted-foreground mb-4">
                   {project.description}
                 </p>

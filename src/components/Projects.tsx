@@ -76,7 +76,7 @@ export const Projects = () => {
               <div className="space-y-4">
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
-                    <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
+                    <h3 className="text-xl font-semibold mb-2 flex items-center gap-2 text-shadow-md">
                       {project.title}
                       {project.featured && (
                         <Badge variant="default" className="text-xs">

@@ -44,7 +44,7 @@ All colors MUST be HSL.
     --data-purple: 265 89% 70%;
     --neural-gradient-start: 189 94% 55%;
     --neural-gradient-end: 265 89% 70%;
-    
+
     /* Semantic transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -58,7 +58,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground font-sans;
-    background-image: url('/src/assets/hero-bg.jpg');
+    background-image: url("/src/assets/hero-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -70,17 +70,26 @@ All colors MUST be HSL.
   .glass-card {
     @apply bg-card/80 backdrop-blur-md border-border/50 shadow-xl shadow-black/20;
   }
-  
+
   .section-title {
     @apply text-4xl md:text-5xl font-bold mb-12 text-center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
-  
+
   .hover-lift {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  
+
   .hover-lift:hover {
     transform: translateY(-4px);
     box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   }
 }
