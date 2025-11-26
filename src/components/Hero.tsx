@@ -16,7 +16,7 @@ export const Hero = () => {
           <div className="inline-block">
             <h2 className="text-2xl md:text-3xl font-light text-muted-foreground text-shadow-md">
               Data Scientist <span className="text-primary">|</span> AI
-              Developer
+              Engineer
             </h2>
           </div>
 
