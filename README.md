@@ -1,6 +1,6 @@
 # 👾 Portfolio Dev
 
-A professional portfolio website showcasing my **Data Science** and **AI Development** projects. Built with modern web technologies as a single-page application (SPA) - with a little help from GitHub Copilot, since I'm not a front-end developer. Feel free to explore the source code and customize it for your own portfolio! 🚀
+A professional portfolio website showcasing my **Data Science** and **AI Engineering** projects. Built with modern web technologies as a single-page application (SPA) - with a little help from GitHub Copilot, since I'm not a front-end developer. Feel free to explore the source code and customize it for your own portfolio! 🚀
 
 <div align="center">
   <img style="max-width: 100%; height: auto;" src="assets/human_ai.jpg" />
