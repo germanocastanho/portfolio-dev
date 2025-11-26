@@ -3,14 +3,16 @@ import { GraduationCap, Award } from "lucide-react";
 
 const education = [
   "Graduação em Análise e Desenvolvimento de Sistemas (UNISINOS)",
+  "Curso Livre Formação Engenheiro de Agentes de IA (ASIMOV ACADEMY)",
   "Curso Livre Bootcamp LuizaLabs - Back-end com Python (DIO)",
+  "Curso Livre Bootcamp Caixa - Inteligência Artificial na Prática (DIO)",
 ];
 const certifications = [
   "Data Scientist Associate (DATACAMP)",
-  "AI Engineer Associate (DATACAMP)",
+  "AI Engineer for Developers Associate (DATACAMP)",
+  "AI Engineer for Data Scientists Associate (DATACAMP)",
   "Python Data Associate (DATACAMP)",
-  "Data Literacy (DATACAMP)",
-  "AI Fundamentals (DATACAMP)",
+  "AI Fundamentals & Data Literacy (DATACAMP)",
 ];
 
 export const Education = () => {
