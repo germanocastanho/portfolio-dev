@@ -12,25 +12,7 @@ export const About = () => {
 
         <Card className="p-8 md:p-12 glass-card hover-lift">
           <p className="text-lg leading-relaxed text-muted-foreground">
-            Data Scientist & AI Engineer com certificações DataCamp (Data
-            Scientist Associate, AI Engineer Associate, Python Data Associate),
-            especializado em sistemas de Generative AI e arquiteturas RAG
-            (Retrieval-Augmented Generation). Expertise em orquestração de Large
-            Language Models (GPT-4, Claude, Llama) via LangChain, CrewAI e Agno,
-            com domínio em prompt engineering, semantic embeddings e vector
-            databases (FAISS, ChromaDB) para contextualização dinâmica.
-          </p>
-          <br />
-          <p className="text-lg leading-relaxed text-muted-foreground">
-            Experiência comprovada em agentes autônomos multimodais, chatbots
-            conversacionais com persistência de sessão e pipelines GenAI
-            end-to-end, integrando APIs comerciais (OpenAI, Anthropic, Groq) e
-            modelos open-source (Hugging Face Transformers). Proficiente em
-            otimização de inferência para redução de custos, mitigação de
-            alucinações via grounding e versionamento de ML artifacts
-            (Git/GitHub). Sólida base em Python para Data Science (Pandas,
-            NumPy), visualização analítica (Matplotlib, Plotly) e deployment
-            containerizado (Docker, Streamlit, Gradio).
+            Data Scientist & AI Engineer certificado, especialista em Generative AI e arquiteturas RAG (Retrieval-Augmented Generation) com orquestração de Large Language Models (GPT-4, Claude, Llama) via LangChain, CrewAI e Agno. Expertise em desenvolvimento de chatbots conversacionais e agentes inteligentes, integrando APIs comerciais (OpenAI, Anthropic, Groq) e modelos open-source (Hugging Face Transformers), com domínio em prompt engineering, semantic embeddings e vector databases (FAISS, ChromaDB). Proficiente em Python para Data Science (Pandas, NumPy), visualização analítica (Matplotlib, Plotly), otimização de inferência para redução de custos, mitigação de alucinações e deployment (Docker, Streamlit, Gradio) com versionamento via Git/GitHub.
           </p>
         </Card>
       </div>
