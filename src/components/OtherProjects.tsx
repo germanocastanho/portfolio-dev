@@ -14,7 +14,7 @@ const otherProjects: OtherProject[] = [
   {
     name: "python-notes",
     description:
-      "Coleção pessoal de notas, dicas e snippets de código Python para Data Science e Machine Learning",
+      "Coleção pessoal de notas, dicas e snippets de código Python para Data Science e AI Engineering",
     tags: ["Python", "Data Science", "ML", "Jupyter"],
     url: "https://github.com/germanocastanho/python-notes",
   },
