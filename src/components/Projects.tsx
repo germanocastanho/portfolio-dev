@@ -16,7 +16,7 @@ const projects: Project[] = [
   {
     title: "Audio Transcriber",
     description:
-      "Script Python que transcreve arquivos de áudio e vídeo utilizando API da OpenAI, com suporte a múltiplos formatos e processamento batch automatizado.",
+      "Script Python que transcreve arquivos de áudio e vídeo utilizando API da OpenAI, com suporte a múltiplos formatos.",
     technologies: [
       "Python",
       "OpenAI",
@@ -30,7 +30,7 @@ const projects: Project[] = [
   {
     title: "Socrates Bot",
     description:
-      "Chatbot de Inteligência Artificial que replica a persona filosófica de Sócrates, utilizando LangChain e Hugging Face para engajar usuários em diálogos socráticos.",
+      "Chatbot de Inteligência Artificial que replica a persona de Sócrates, utilizando LangChain para engajar usuários em diálogos filosóficos.",
     technologies: [
       "Python",
       "LangChain",
@@ -44,7 +44,7 @@ const projects: Project[] = [
   {
     title: "Minerva's Owl",
     description:
-      "Assistente inteligente especializado em interação com vaults do Obsidian, permitindo busca semântica e gerenciamento de conhecimento através de IA.",
+      "Assistente inteligente especializado em interação com vaults do Obsidian, permitindo busca semântica e gerenciamento de conhecimento.",
     technologies: [
       "Python",
       "RAG",
